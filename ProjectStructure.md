@@ -5,7 +5,11 @@ Describe the project structure of the files included in the solution
 ### Entry point for the solution. Takes 1 Argument from the set: {"sc1", "sc2", "sc3", "sc4", "sc5"}
 Main.go is the responsible for generating the scenarios to be run.
 It sends transactions to be run by the client. There are 5 scenarios supported to validate the correct behavior.
-sc1: intra-shard transaction; sc2: cross-shard transaction; sc3: cross-shard double spend trial; sc4: block creation every 10 transactions; sc5: 10,000 transactions with 30% chance of cross-shard 
+1. sc1: intra-shard transaction; 
+2. sc2: cross-shard transaction; 
+3. sc3: cross-shard double spend trial; 
+4. sc4: block creation every 10 transactions; 
+5. sc5: 10,000 transactions with 30% chance of cross-shard 
 
 ## Client.go
 ### Implements the 3 Step Process described in Omniledger for Cross-Shard Transactions
