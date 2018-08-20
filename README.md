@@ -60,7 +60,7 @@ TxID: 2f7d07799be47c1fe072cddf399103fddda326568b59dc57a3e1b0d3029ada03, OutIndex
 
 ## Scenario 3: 2 Cross-Shard Transactions. 2nd One tries to double-spend 
 ### Run: atomixTest.exe sc3
-In this test, there should only be 1 new UTXO added to all shards.
+In this test, there should only be 1 new UTXO added to all shards. output will be similar to Scenario 2. 
 
 ## Scenario 4: 30 Intra-Shard Transactions. Validate Block Creation every 10 transactions
 ### Run: atomixTest.exe sc4
